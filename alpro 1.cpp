@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int waktu1,waktu2;
+	long int bonus1,bonus2,gaji1,gaji2;
+	cout<<"===Perhitungan Gaji Karyawan==="<<endl;
+	cout<<"\n Gaji tim 1 = 22 juta"<<endl;
+	cout<<" Gaji tim 2 = 28 juta"<<endl;
+	cout<<"\n Waktu pengerjaan TIM 1 (dalam bulan) : ";
+	cin>>waktu1;
+
+	return 0;
+}
+
