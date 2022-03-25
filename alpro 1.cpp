@@ -9,6 +9,16 @@ int main(){
 	cout<<"\n Waktu pengerjaan TIM 1 (dalam bulan) : ";
 	cin>>waktu1;
 
+
+	if(waktu2==5){
+		gaji2=28000000;
+		bonus2=28000000*0.06;
+		cout<<" Total Gaji Yang Anda Terima = "<<gaji2+bonus2<<endl;
+	}
+	else{
+		gaji2=28000000;
+		cout<<" Total Gaji Yang Anda Terima = "<<gaji2<<endl;
+	}
 	return 0;
 }
 
